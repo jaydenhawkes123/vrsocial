@@ -142,9 +142,10 @@ func _physics_process(delta):
 	
 	# We should be the child or the controller on which the teleport is implemented
 	var controller = get_parent()
+	var otherController = get_node("../../ARVRController_Right")
 	if controller.get_is_active():
 		var left_right = controller.get_joystick_axis(0)
-		var forwards_backwards = controller.get_joystick_axis(1)
+		var forwards_backwards = otherController.get_joystick_axis(1)
 		
 		# if fly_action_button_id is pressed it activates the FLY MODE
 		# if fly_action_button_id is released it deactivates the FLY MODE
@@ -153,6 +154,11 @@ func _physics_process(delta):
 		else:
 			isflying = false
 		
+		#Block to debug which buttons are which
+		#for i in range(15):
+		#	if controller.is_button_pressed(i+1):
+		#		print("Last button pressed: " + str(i + 1))
+				
 		# if player is flying, he moves following the controller's orientation
 		if isflying:	
 			if controller.is_button_pressed(fly_move_button_id):
