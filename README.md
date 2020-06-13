@@ -11,7 +11,7 @@ Feel free to come chat over on the official discord https://discord.gg/g7GpVgd
 If this project ever takes on more than a couple devs I switch to an official matrix server or something in the spirit of using opensource software to communicate.
 
 Goals
-- Pick a better name (I like names that imply function but all the obvious names are taken
+- Pick a better name (I like names that imply function but all the obvious names are taken)
 - Federated chatrooms
 - Federated authentication + friend storage + ability to seemlessly switch which authentication server you are signed up with
 - Bittorrent community content distribution solution (So people can run there own server without using a massive amount of bandwidth)
