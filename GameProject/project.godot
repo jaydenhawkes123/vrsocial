@@ -16,7 +16,25 @@ _global_script_class_icons={
 [application]
 
 config/name="VrSocial"
+run/main_scene="res://HomeWorld.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/vsync/use_vsync=false
+
+[gdnative]
+
+singletons=[ "res://addons/godot-openvr/godot_openvr.gdnlib" ]
+
+[layer_names]
+
+3d_physics/layer_1="Player"
+3d_physics/layer_2="World"
+3d_physics/layer_3="WorldObjects"
+3d_physics/layer_4="PlayerObjects"
+3d_physics/layer_5="Pointer"
+3d_physics/Player=false
 
 [rendering]
 
