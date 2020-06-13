@@ -16,5 +16,5 @@ Goals
 - Federated chatrooms
 - Federated authentication + friend storage + ability to seamlessly switch which authentication server you are signed up with
 - BitTorrent community content distribution solution (So people can run their own server without using a massive amount of bandwidth)
-- As much encryption as possible without degrading experience (End to End if possible (Maybe just on voice and not on IK)
+- As much encryption as possible without degrading experience (End to End if possible (Maybe just on voice and not on IK))
 - Actually having a working prototype with basic chat functionality (In progress)
