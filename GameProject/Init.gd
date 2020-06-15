@@ -22,6 +22,7 @@ func _ready():
 
 			# put our physics in sync with our expected frame rate:
 			Engine.iterations_per_second = 90
+			
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
